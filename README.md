@@ -50,3 +50,38 @@ Ensure you have the following dependencies installed:
 - Python 3.x
 - Streamlit
 - google.generativeai (GenAI library)
+
+### Installation
+
+1. Clone this repository to your local machine:
+
+```
+git clone https://github.com/codewithdark-git/code-summarizer-bug-finder.git
+```
+
+2. Navigate to the project directory:
+
+```
+cd code-summarizer-bug-finder
+```
+
+3. Install the required dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+### Running the App
+
+Run the Streamlit app using the following command:
+
+```
+streamlit run app.py
+```
+
+Open your web browser and navigate to the URL provided by Streamlit to access the app.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
