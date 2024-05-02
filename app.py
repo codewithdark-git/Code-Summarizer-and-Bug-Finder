@@ -1,8 +1,9 @@
 import streamlit as st
 import google.generativeai as genai
+import os
 
 # Set up GenAI with your Google API key
-GOOGLE_API_KEY = "AIzaSyC9Qos7UR9jjb5WatykUZumrla8KvTamfE"
+GOOGLE_API_KEY = os.getenv("gemini_api")
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Function to summarize code and find bugs
