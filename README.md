@@ -28,3 +28,25 @@ To find bugs in code:
 1. Enter your code in the text area under "Find Bugs".
 2. Click the "Find Bugs" button.
 3. The app will identify any potential bugs and suggest improvements.
+
+
+## Developer
+
+This app was developed by [DarkCoder](https://github.com/darkcoder90). For inquiries, you can reach out to [codewithdark90@gmail.com](mailto:Codewithdark90@gmail.com).
+
+Connect with the developer:
+- [GitHub](https://github.com/codewithdark-git)
+- [LinkedIn](https://www.linkedin.com/in/codewithdark)
+- [Facebook](https://www.facebook.com/codewithdark.fb)
+
+## Usage
+
+To use this app locally, follow the instructions below:
+
+### Dependencies
+
+Ensure you have the following dependencies installed:
+
+- Python 3.x
+- Streamlit
+- google.generativeai (GenAI library)
