@@ -17,7 +17,7 @@ def summarize_and_find_bugs(code):
         return f"Error: {str(e)}"
 
 # Page layout for introduction, usage, and developer information
-# Page layout for introduction, usage, and developer information
+
 def intro_page():
     st.title("Welcome to Code Summarizer and Bug Finder")
     st.write("This app allows you to summarize code and find bugs using AI.")
